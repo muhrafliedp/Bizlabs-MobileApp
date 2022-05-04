@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bizplan_21"
+    tools:context=".BizplanActivity21">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView2"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/bizplan_21"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0">-->
+<!--    </ImageView>-->
+
+    <Button
+        android:id="@+id/btnnexttoaspekbisnis3"
+        android:layout_width="142dp"
+        android:layout_height="44dp"
+        android:background="#00000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643">
+    </Button>
+
+    <Button
+        android:id="@+id/btnbacktohome"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:background="#00000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985">
+    </Button>
+
+    <EditText
+        android:id="@+id/businessMisi"
+        android:layout_width="284dp"
+        android:layout_height="100dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="Tuliskan cita-cita bisnis Anda"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.249"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editOwnerName"
+        android:layout_width="284dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:hint="Siapa pemilik bisnisnya"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintVertical_bias="0.43"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editJumlahKaryawan"
+        android:layout_width="43dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.545"
+        android:background="#192936" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

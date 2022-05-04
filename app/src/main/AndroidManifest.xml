@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bizlabs_app">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_logo"
+        android:label="Bizlabs_App"
+        android:roundIcon="@mipmap/ic_launcher_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Bizlabs_App">
+        <activity
+            android:name=".chat1"
+            android:exported="false" />
+        <activity
+            android:name=".class1"
+            android:exported="false" />
+        <activity
+            android:name=".NextActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".pdfReader"
+            android:exported="false" />
+        <activity
+            android:name=".BizplanToGenerate"
+            android:exported="false" />
+        <activity
+            android:name=".BizplanActivity5"
+            android:exported="true" />
+        <activity
+            android:name=".BizplanActivity41"
+            android:exported="false" />
+        <activity
+            android:name=".BizplanActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".BizplanActivity31"
+            android:exported="false" />
+        <activity
+            android:name=".Bizplan3"
+            android:exported="false" />
+        <activity
+            android:name=".BizplanActivity21"
+            android:exported="false" />
+        <activity
+            android:name=".BizplanActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".NextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

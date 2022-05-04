@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "801880870885",
+    "project_id": "bizlabs-app",
+    "storage_bucket": "bizlabs-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:801880870885:android:24a1da4b2e757cef10690c",
+        "android_client_info": {
+          "package_name": "com.example.bizlabs_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "801880870885-osq4cmkms9aofasqqo3gh8rbvjsvslu2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9HiIL4fLN5W569CCeabB--PiJN5AKSwA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "801880870885-osq4cmkms9aofasqqo3gh8rbvjsvslu2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

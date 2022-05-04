@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bizplan4"
+    tools:context=".BizplanActivity5">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/imageView7"-->
+<!--        android:layout_width="fill_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/bizplan4"-->
+<!--        android:visibility="visible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.0"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.0">-->
+<!--    </ImageView>-->
+
+    <EditText
+        android:id="@+id/editSalesValue"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.223"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editSalesGrowth1"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintVertical_bias="0.313"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editSalesGrowth2"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintVertical_bias="0.36"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editSalesGrowth3"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintVertical_bias="0.313"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editSalesGrowth4"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintVertical_bias="0.36"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editExpensesValue"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintVertical_bias="0.47"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editExpensesGrowth1"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintVertical_bias="0.56"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editExpensesGrowth2"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.24"
+        app:layout_constraintVertical_bias="0.607"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editExpensesGrowth3"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintVertical_bias="0.56"
+        android:background="#192936" />
+
+    <EditText
+        android:id="@+id/editExpensesGrowth4"
+        android:layout_width="110dp"
+        android:layout_height="28dp"
+        android:ems="10"
+        android:textColorHint="#D7D7D7"
+        android:textColor="#15F1FF"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:autoSizeTextType="uniform"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="212dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintVertical_bias="0.607"
+        android:background="#192936" />
+
+    <Button
+        android:id="@+id/btnnexttogenerate"
+        android:layout_width="163dp"
+        android:layout_height="44dp"
+        android:background="#00000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.716">
+    </Button>
+
+    <Button
+        android:id="@+id/btnbacktohome"
+        android:layout_width="68dp"
+        android:layout_height="68dp"
+        android:background="#00000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.985">
+    </Button>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
